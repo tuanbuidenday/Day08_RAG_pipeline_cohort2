@@ -1,17 +1,130 @@
 [
   {
-    "question": "Hình phạt cho tội tàng trữ trái phép chất ma tuý theo Điều 249 Bộ luật Hình sự?",
-    "expected_answer": "Phạt tù từ 1 đến 5 năm đối với trường hợp tàng trữ từ 1g đến dưới 5g heroin hoặc cocaine, hoặc chất ma tuý khác với khối lượng tương đương.",
-    "expected_context": "Bộ luật Hình sự 2015, Điều 249"
+    "id": "legal_001",
+    "category": "criminal_law",
+    "question": "Điều 249 Bộ luật Hình sự quy định tội tàng trữ trái phép chất ma túy như thế nào?",
+    "expected_answer": "Điều 249 quy định người tàng trữ trái phép chất ma túy có thể bị phạt tù từ 1 năm đến 5 năm ở khung cơ bản; khung hình phạt tăng theo loại chất, khối lượng, số lần phạm tội và các tình tiết tăng nặng.",
+    "expected_context": "Bộ luật Hình sự 2015, sửa đổi 2017, Chương XX, Điều 249 về tội tàng trữ trái phép chất ma túy.",
+    "expected_sources": ["bo-luat-hinh-su-2015-sua-doi-2017"]
   },
   {
-    "question": "Luật Phòng chống ma tuý 2021 quy định những hình thức cai nghiện nào?",
-    "expected_answer": "Cai nghiện tự nguyện tại gia đình, cai nghiện tự nguyện tại cộng đồng, cai nghiện tự nguyện tại cơ sở cai nghiện, và cai nghiện bắt buộc tại cơ sở cai nghiện.",
-    "expected_context": "Luật Phòng chống ma tuý 2021, Chương V"
+    "id": "legal_002",
+    "category": "criminal_law",
+    "question": "Tội vận chuyển trái phép chất ma túy được quy định ở điều nào của Bộ luật Hình sự?",
+    "expected_answer": "Tội vận chuyển trái phép chất ma túy được quy định tại Điều 250 Bộ luật Hình sự. Mức phạt phụ thuộc vào loại chất ma túy, khối lượng, phạm vi tổ chức và các tình tiết tăng nặng.",
+    "expected_context": "Bộ luật Hình sự 2015, sửa đổi 2017, Chương XX, Điều 250 về tội vận chuyển trái phép chất ma túy.",
+    "expected_sources": ["bo-luat-hinh-su-2015-sua-doi-2017"]
   },
   {
-    "question": "Danh mục các chất ma tuý thuộc nhóm I theo quy định pháp luật Việt Nam gồm những chất nào?",
-    "expected_answer": "Nhóm I gồm các chất ma tuý tuyệt đối cấm sử dụng trong y học và đời sống, bao gồm heroin, cocaine, methamphetamine, MDMA (ecstasy), cannabis (cần sa), và các chất tương tự.",
-    "expected_context": "Nghị định 57/2022/NĐ-CP, Phụ lục I"
+    "id": "legal_003",
+    "category": "criminal_law",
+    "question": "Tội mua bán trái phép chất ma túy theo Điều 251 có thể bị xử lý ra sao?",
+    "expected_answer": "Điều 251 Bộ luật Hình sự quy định tội mua bán trái phép chất ma túy với khung cơ bản là phạt tù, các khung nặng hơn áp dụng khi có tổ chức, phạm tội nhiều lần, với nhiều người hoặc với khối lượng ma túy lớn.",
+    "expected_context": "Bộ luật Hình sự 2015, sửa đổi 2017, Chương XX, Điều 251 về tội mua bán trái phép chất ma túy.",
+    "expected_sources": ["bo-luat-hinh-su-2015-sua-doi-2017"]
+  },
+  {
+    "id": "legal_004",
+    "category": "criminal_law",
+    "question": "Hành vi tổ chức sử dụng trái phép chất ma túy được Bộ luật Hình sự xử lý theo điều nào?",
+    "expected_answer": "Hành vi tổ chức sử dụng trái phép chất ma túy được quy định tại Điều 255 Bộ luật Hình sự. Đây là tội danh độc lập với hành vi sử dụng, tàng trữ hoặc mua bán ma túy.",
+    "expected_context": "Bộ luật Hình sự 2015, sửa đổi 2017, Chương XX, Điều 255 về tội tổ chức sử dụng trái phép chất ma túy.",
+    "expected_sources": ["bo-luat-hinh-su-2015-sua-doi-2017"]
+  },
+  {
+    "id": "legal_005",
+    "category": "prevention_law",
+    "question": "Luật Phòng, chống ma túy 2021 quy định những hình thức cai nghiện ma túy nào?",
+    "expected_answer": "Luật Phòng, chống ma túy 2021 quy định cai nghiện tự nguyện và cai nghiện bắt buộc. Cai nghiện tự nguyện có thể thực hiện tại gia đình, cộng đồng hoặc cơ sở cai nghiện.",
+    "expected_context": "Luật Phòng, chống ma túy 2021, Chương V về cai nghiện ma túy và quản lý sau cai nghiện.",
+    "expected_sources": ["luat-phong-chong-ma-tuy-2021"]
+  },
+  {
+    "id": "legal_006",
+    "category": "prevention_law",
+    "question": "Người sử dụng trái phép chất ma túy có trách nhiệm gì theo Luật Phòng, chống ma túy 2021?",
+    "expected_answer": "Người sử dụng trái phép chất ma túy phải cung cấp thông tin về hành vi sử dụng, chấp hành việc xác định tình trạng nghiện, quản lý của cơ quan có thẩm quyền và các biện pháp phòng ngừa, cai nghiện nếu đủ điều kiện.",
+    "expected_context": "Luật Phòng, chống ma túy 2021 quy định quản lý người sử dụng trái phép chất ma túy và trách nhiệm phối hợp của cá nhân, gia đình, cơ quan chức năng.",
+    "expected_sources": ["luat-phong-chong-ma-tuy-2021"]
+  },
+  {
+    "id": "legal_007",
+    "category": "prevention_law",
+    "question": "Gia đình có vai trò gì trong phòng, chống ma túy theo Luật Phòng, chống ma túy 2021?",
+    "expected_answer": "Gia đình có trách nhiệm giáo dục thành viên không sử dụng trái phép chất ma túy, quản lý người sử dụng hoặc người nghiện trong gia đình, phối hợp với cơ quan có thẩm quyền trong phòng ngừa, cai nghiện và quản lý sau cai.",
+    "expected_context": "Luật Phòng, chống ma túy 2021 quy định trách nhiệm của gia đình, cơ quan, tổ chức và cá nhân trong phòng, chống ma túy.",
+    "expected_sources": ["luat-phong-chong-ma-tuy-2021"]
+  },
+  {
+    "id": "legal_008",
+    "category": "decree",
+    "question": "Nghị định 105/2021/NĐ-CP hướng dẫn nội dung gì liên quan đến cai nghiện ma túy?",
+    "expected_answer": "Nghị định 105/2021/NĐ-CP hướng dẫn chi tiết các thủ tục liên quan đến xác định tình trạng nghiện, quản lý người sử dụng trái phép chất ma túy, cai nghiện tự nguyện, cai nghiện bắt buộc và quản lý sau cai nghiện.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng, chống ma túy.",
+    "expected_sources": ["nghi-dinh-105-2021"]
+  },
+  {
+    "id": "legal_009",
+    "category": "decree",
+    "question": "Ai có thẩm quyền lập hồ sơ đề nghị áp dụng biện pháp đưa vào cơ sở cai nghiện bắt buộc?",
+    "expected_answer": "Hồ sơ đề nghị áp dụng biện pháp đưa vào cơ sở cai nghiện bắt buộc do cơ quan, người có thẩm quyền ở cấp xã hoặc cơ quan công an lập theo trình tự được Nghị định 105/2021/NĐ-CP hướng dẫn.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP quy định trình tự, thủ tục lập hồ sơ đề nghị đưa người nghiện ma túy vào cơ sở cai nghiện bắt buộc.",
+    "expected_sources": ["nghi-dinh-105-2021"]
+  },
+  {
+    "id": "legal_010",
+    "category": "decree",
+    "question": "Nghị định 105/2021/NĐ-CP quy định việc xác định tình trạng nghiện ma túy nhằm mục đích gì?",
+    "expected_answer": "Việc xác định tình trạng nghiện ma túy là căn cứ để áp dụng biện pháp quản lý, tư vấn, điều trị, cai nghiện tự nguyện hoặc cai nghiện bắt buộc theo quy định pháp luật.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP hướng dẫn xác định tình trạng nghiện ma túy và các bước xử lý tiếp theo.",
+    "expected_sources": ["nghi-dinh-105-2021"]
+  },
+  {
+    "id": "news_001",
+    "category": "news",
+    "question": "Bài báo về Chu Bin nêu sự việc gì liên quan đến ma túy?",
+    "expected_answer": "Bài báo nêu ca sĩ Chu Bin bị tạm giữ hoặc bị điều tra trong vụ việc liên quan đến ma túy tại Quận 10, TP.HCM, cùng thông tin về hành vi sử dụng hoặc tổ chức sử dụng trái phép chất ma túy theo nguồn báo chí.",
+    "expected_context": "Bài báo article_01 về Chu Bin và vụ việc liên quan ma túy tại Quận 10.",
+    "expected_sources": ["article_01"]
+  },
+  {
+    "id": "news_002",
+    "category": "news",
+    "question": "Bài báo article_02 nhắc đến những nghệ sĩ nào trong vụ việc liên quan ma túy?",
+    "expected_answer": "Bài báo article_02 nhắc đến Chi Dân, An Tây và một số nghệ sĩ khác trong bối cảnh sự nghiệp bị ảnh hưởng do liên quan đến ma túy.",
+    "expected_context": "Bài báo article_02 về Chi Dân, An Tây và các nghệ sĩ mất sự nghiệp vì ma túy.",
+    "expected_sources": ["article_02"]
+  },
+  {
+    "id": "news_003",
+    "category": "news",
+    "question": "Theo bài article_03, Chi Dân, An Tây và Trúc Phương bị nhắc đến trong vụ án nào?",
+    "expected_answer": "Theo article_03, Chi Dân, An Tây và Trúc Phương bị nhắc đến trong vụ án liên quan đến ma túy tại Quận 10, với các hành vi bị điều tra hoặc truy tố theo thông tin báo chí.",
+    "expected_context": "Bài article_03 của VOV về việc truy tố Chi Dân, An Tây, Trúc Phương trong vụ án VN10 liên quan ma túy.",
+    "expected_sources": ["article_03"]
+  },
+  {
+    "id": "news_004",
+    "category": "news",
+    "question": "Bài article_04 nói gì về diễn viên Hữu Tín?",
+    "expected_answer": "Article_04 nêu diễn viên Hữu Tín bị phát hiện sử dụng ma túy trong một căn hộ, là vụ việc báo chí đưa tin về nghệ sĩ liên quan đến ma túy.",
+    "expected_context": "Bài article_04 về diễn viên Hữu Tín bị phát hiện sử dụng ma túy.",
+    "expected_sources": ["article_04"]
+  },
+  {
+    "id": "news_005",
+    "category": "news",
+    "question": "Bài article_05 nêu thông tin gì về Lệ Hằng?",
+    "expected_answer": "Article_05 nêu diễn viên Lệ Hằng bị điều tra trong vụ án liên quan đến mua bán hoặc giao dịch ma túy theo thông tin từ cơ quan chức năng và báo chí.",
+    "expected_context": "Bài article_05 của VnExpress về Lệ Hằng bị điều tra liên quan ma túy.",
+    "expected_sources": ["article_05"]
+  },
+  {
+    "id": "news_006",
+    "category": "news",
+    "question": "Bài article_06 nêu vụ việc nào liên quan đến Châu Việt Cường?",
+    "expected_answer": "Article_06 nêu Châu Việt Cường bị bắt khẩn cấp trong vụ việc liên quan đến sử dụng ma túy và hậu quả nghiêm trọng dẫn đến cái chết của một người phụ nữ.",
+    "expected_context": "Bài article_06 về Châu Việt Cường bị bắt khẩn cấp sau vụ việc liên quan ma túy.",
+    "expected_sources": ["article_06"]
   }
 ]
