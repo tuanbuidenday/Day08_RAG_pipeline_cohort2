@@ -1,0 +1,15 @@
+# Diễn viên Hữu Tín - người vừa bị phát hiện sử dụng ma túy là ai?
+
+**Source:** https://danviet.vn/dien-vien-huu-tin-nguoi-vua-bi-phat-hien-su-dung-ma-tuy-la-ai-202206122002482-print799621.html
+**Crawled:** 2026-06-08T10:48:00+07:00
+**Publisher:** Dân Việt
+
+---
+
+# Diễn viên Hữu Tín - người vừa bị phát hiện sử dụng ma túy là ai?
+
+Dân Việt dẫn thông tin từ Công an quận 8, TP.HCM ngày 12-6-2022 về việc củng cố hồ sơ xử lý một số người bị phát hiện sử dụng chất ma túy tại một căn hộ chung cư, trong đó có diễn viên hài Hữu Tín. Bài viết giới thiệu Hữu Tín là diễn viên hài từng hoạt động sân khấu, tham gia nhóm X-Pro và được công chúng biết đến qua các chương trình hài, truyền hình.
+
+Bài này phù hợp cho phần dữ liệu báo chí về trường hợp nghệ sĩ bị phát hiện sử dụng ma túy tại nơi ở hoặc căn hộ chung cư. Khi dùng trong RAG, cần tách rõ thông tin nghề nghiệp, thời điểm phát hiện và cơ quan xử lý hồ sơ.
+
+Từ khóa: Hữu Tín, diễn viên hài, sử dụng ma túy, Công an quận 8, TP.HCM, căn hộ chung cư, nghệ sĩ Việt Nam.

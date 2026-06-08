@@ -1,0 +1,15 @@
+# Bắt khẩn cấp ca sĩ Châu Việt Cường
+
+**Source:** https://plo.vn/bat-khan-cap-ca-si-chau-viet-cuong-post473865.html
+**Crawled:** 2026-06-08T10:50:00+07:00
+**Publisher:** Báo Pháp Luật TP.HCM
+
+---
+
+# Bắt khẩn cấp ca sĩ Châu Việt Cường
+
+Báo Pháp Luật TP.HCM đưa tin ca sĩ Châu Việt Cường, tên thật Nguyễn Việt Cường, bị bắt khẩn cấp để điều tra vụ một nữ sinh tử vong sau khi nhóm người sử dụng ma túy. Bài báo nêu vụ việc ban đầu được điều tra theo hướng vô ý làm chết người, đồng thời nhắc đến yếu tố sử dụng ma túy trước khi xảy ra hành vi gây hậu quả nghiêm trọng.
+
+Nguồn này hữu ích cho pipeline RAG vì liên kết chủ đề nghệ sĩ, sử dụng ma túy, ảo giác và hậu quả pháp lý. Khi trả lời, cần tránh suy đoán vượt quá thông tin trong nguồn và phân biệt giữa hành vi sử dụng ma túy với tội danh cuối cùng trong vụ án.
+
+Từ khóa: Châu Việt Cường, Nguyễn Việt Cường, ca sĩ Việt Nam, ma túy, bắt khẩn cấp, vô ý làm chết người, hậu quả pháp lý.

@@ -1,0 +1,15 @@
+# Ca sĩ Chi Dân, An Tây và những nghệ sĩ đánh mất sự nghiệp vì ma túy
+
+**Source:** https://plo.vn/ca-si-chi-dan-an-tay-va-nhung-nghe-si-danh-mat-su-nghiep-vi-ma-tuy-post819930.html
+**Crawled:** 2026-06-08T10:46:00+07:00
+**Publisher:** Báo Pháp Luật TP.HCM
+
+---
+
+# Ca sĩ Chi Dân, An Tây và những nghệ sĩ đánh mất sự nghiệp vì ma túy
+
+Báo Pháp Luật TP.HCM đưa tin ngày 14-11-2024, Công an TP.HCM khởi tố, bắt tạm giam ca sĩ Chi Dân và An Tây, tức Andrea Aybar, để điều tra hành vi mua ma túy nhằm tổ chức sử dụng chất cấm. Bài viết nhấn mạnh sự việc gây thất vọng cho khán giả vì những người liên quan đều có hoạt động trong lĩnh vực giải trí hoặc có ảnh hưởng trên mạng xã hội.
+
+Bài báo còn tổng hợp một số trường hợp nghệ sĩ từng vướng ma túy, trong đó có ca sĩ Châu Việt Cường. Nội dung phù hợp để dùng làm nguồn tin báo chí về tác động của ma túy đối với hình ảnh nghệ sĩ, sự nghiệp và trách nhiệm xã hội của người nổi tiếng.
+
+Từ khóa: Chi Dân, An Tây, Andrea Aybar, Châu Việt Cường, nghệ sĩ Việt Nam, ma túy, tổ chức sử dụng chất cấm, Công an TP.HCM.

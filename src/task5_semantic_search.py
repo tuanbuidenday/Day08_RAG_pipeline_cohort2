@@ -1,14 +1,6 @@
-"""
-Task 5 — Semantic Search Module.
+"""Task 5 — Semantic Search Module."""
 
-Viết module tìm kiếm ngữ nghĩa (dense retrieval) trên vector store.
-
-Yêu cầu:
-    - Input: query string + top_k
-    - Output: danh sách chunks có score, sorted descending
-    - Phải tương thích với embedding model và vector store ở Task 4
-"""
-
+from .production_clients import WEAVIATE_COLLECTION, connect_weaviate, embed_texts
 
 def semantic_search(query: str, top_k: int = 10) -> list[dict]:
     """
@@ -26,37 +18,39 @@ def semantic_search(query: str, top_k: int = 10) -> list[dict]:
         }
         Sorted by score descending.
     """
-    # TODO: Implement semantic search
-    #
-    # Bước 1: Embed query bằng cùng model ở Task 4
-    # Bước 2: Query vector store (cosine similarity)
-    # Bước 3: Return top_k results
-    #
-    # Ví dụ với Weaviate:
-    # import weaviate
-    # from sentence_transformers import SentenceTransformer
-    #
-    # model = SentenceTransformer("BAAI/bge-m3")
-    # query_embedding = model.encode(query).tolist()
-    #
-    # client = weaviate.connect_to_local()
-    # collection = client.collections.get("DrugLawDocs")
-    #
-    # results = collection.query.near_vector(
-    #     near_vector=query_embedding,
-    #     limit=top_k,
-    #     return_metadata=MetadataQuery(distance=True)
-    # )
-    #
-    # return [
-    #     {
-    #         "content": obj.properties["content"],
-    #         "score": 1 - obj.metadata.distance,  # distance → similarity
-    #         "metadata": {"source": obj.properties["source"], ...}
-    #     }
-    #     for obj in results.objects
-    # ]
-    raise NotImplementedError("Implement semantic_search")
+    from weaviate.classes.query import MetadataQuery
+
+    query_embedding = embed_texts([query], task="retrieval.query")[0]
+    client = connect_weaviate()
+    try:
+        collection = client.collections.get(WEAVIATE_COLLECTION)
+        response = collection.query.near_vector(
+            near_vector=query_embedding,
+            limit=top_k,
+            return_metadata=MetadataQuery(distance=True),
+        )
+        results = []
+        for obj in response.objects:
+            props = obj.properties
+            distance = obj.metadata.distance
+            score = 1.0 - float(distance or 0.0)
+            results.append(
+                {
+                    "content": props.get("content", ""),
+                    "score": score,
+                    "metadata": {
+                        "source": props.get("source", ""),
+                        "filename": props.get("filename", ""),
+                        "path": props.get("path", ""),
+                        "type": props.get("doc_type", ""),
+                        "chunk_index": props.get("chunk_index", 0),
+                    },
+                }
+            )
+        results.sort(key=lambda item: item["score"], reverse=True)
+        return results
+    finally:
+        client.close()
 
 
 if __name__ == "__main__":
